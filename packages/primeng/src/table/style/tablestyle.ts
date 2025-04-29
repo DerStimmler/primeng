@@ -349,7 +349,7 @@ const theme = ({ dt }) => `
     padding: ${dt('datatable.body.cell.padding')};
 }
 
-.p-datatable-hoverable .p-datatable-tbody > tr:not(.p-datatable-row-selected):hover {
+.p-datatable-hoverable .p-datatable-tbody > tr:not(.p-datatable-row-selected):hover td {
     background: ${dt('datatable.row.hover.background')};
     color: ${dt('datatable.row.hover.color')};
 }
