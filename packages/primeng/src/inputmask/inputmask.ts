@@ -830,7 +830,7 @@ export class InputMask extends BaseComponent implements OnInit, AfterContentInit
 
     updateModel(e: Event) {
         const updatedValue = this.unmask ? this.getUnmaskedValue() : (e.target as HTMLInputElement).value;
-        if (updatedValue !== null || updatedValue !== undefined) {
+        if (updatedValue !== this.value && (updatedValue !== null || updatedValue !== undefined)) {
             this.value = updatedValue;
             this.onModelChange(this.value);
         }
