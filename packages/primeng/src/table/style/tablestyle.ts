@@ -354,7 +354,7 @@ const theme = ({ dt }) => `
     color: ${dt('datatable.row.hover.color')};
 }
 
-.p-datatable-tbody > tr.p-datatable-row-selected {
+.p-datatable-tbody > tr.p-datatable-row-selected td {
     background: ${dt('datatable.row.selected.background')};
     color: ${dt('datatable.row.selected.color')};
 }
